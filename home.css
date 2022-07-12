@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Roboto+Slab&family=Source+Sans+Pro:wght@300;900&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.logo{
+    height: 100px;
+    flex-basis: 200px;
+
+}
+.topimg{
+    padding-right: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.top{
+    background-color: rgb(249, 247, 247);
+    font-family: 'Source Sans Pro', sans-serif;
+    display:flex;
+
+}
+.toplogo{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+.tt{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.op{
+    width: 600px;
+} 
+
+.topp{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 166, 0);
+    font-weight: bolder;
+}
+
+.tophead{
+    font-size: larger;
+}
+h1{
+    text-transform: capitalize;
+}
+
+.head_p{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h{
+    padding-left:-80px ;
+    text-align: center;
+    width: max-content;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+.b{
+    padding: 0 0px 0 0;
+}
+.h:hover{
+    color: rgb(255, 149, 0);
+}
+.top2{
+    margin: 25px 0 25px 0;
+}
+#search{
+    position: relative;
+    padding: 0;
+    border:0;
+    background-color: white;
+}
+
+
+
+.carousel-my.a{
+    background-image: url(./Resources/Lid5Bj6GT.jpg);
+    background-position: center;
+}
+.carousel-my.b{
+    background-image: url(./Resources/wp10667111.webp);
+    background-position: 50% 50%;;
+
+}
+.carousel-my.c{
+    background-image: url(./Resources/pexels-yury-kim-585419.jpg);
+    background-position: 50% 30%;;
+}
+.carousel-my.d{
+    background-image: url(./Resources/photo-1626885930974-4b69aa21bbf9.jfif);
+    background-position: 50% 40%;
+}
+.carousel-my.e{
+    background-image: url(./Resources/pexels-yury-kim-585418.jpg);
+    background-position: center;
+}
+.carousel-my{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+}
+.btun{
+    text-align: center;
+    font-weight: bolder;
+    font-size:large;
+    position: absolute;
+    top:400px;
+}
+.rt{
+    background-color: rgba(234, 234, 234, 0.51);
+    padding: 15px 11px 15px 8px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    transition: padding 0.1s cubic-bezier(0, 1.22, 0.86, 1.04);;
+}
+.rt:hover{
+    padding: 15px 18px 15px 15px;
+}
+
+.carousel-my_bg_detail{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 500px;
+    padding: 30px 20px 50px;
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    border:1px solid rgb(82, 82, 82)
+}
+.carousel-my_bg_detail h1{
+    font-family: 'Cormorant SC', serif;
+    font-size: x-large;
+    padding-bottom:30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.carousel-my_bg_detail p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: medium;
+    line-height: 1.2;
+    padding-bottom:30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.lt{
+    right: 0;
+    background-color: rgba(234, 234, 234, 0.51);
+    padding: 15px 8px 15px 11px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    transition: padding 0.1s cubic-bezier(0, 1.22, 0.86, 1.04);;
+}
+
+.lt:hover{
+    padding: 15px 15px 15px 18px;
+}
+.js div h1{
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-self: center;
+    font-weight: 1000;
+    padding: 10px;
+}
